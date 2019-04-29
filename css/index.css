@@ -109,7 +109,8 @@ nav{
 }
 .headerDiv1{
 	padding:5% 0%;
-	width:45%
+    width:45%;
+    text-align:center;
 }
 .headerDiv2{
 	padding:5% 0%;
