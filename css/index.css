@@ -52,7 +52,7 @@ table {
 
 
 html, body {
-    height: 100%;
+
     font-family: 'Titillium Web', sans-serif;
 }
 body{
@@ -162,7 +162,7 @@ section {
 }
 .startButton{
 	width: 15vw;
-	margin: 1vw 2vw;
+	 margin: 1vw 2vw; 
 	text-align:center;
 	padding: 10px;
 	background-color: white;
@@ -236,4 +236,25 @@ li{
         display:none;
     }
 
+}
+@media (max-width: 500px){
+    nav{
+        flex-direction:column;
+        align-items:center;
+    }
+    .navbarlink{
+        border-top: 1px solid black;
+        margin:0;
+        padding-left:40%;
+        padding-right:60%
+    }
+    .navbarlink:nth-last-child(){
+        border-bottom: 1px solid black;
+    }
+    .subsection1 , #subsection3{
+        flex-direction:column;
+    }
+    .sectionDivs, .sectionDivs2{
+        width:100%;
+    }
 }
